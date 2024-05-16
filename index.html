@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/android-chrome-512x512.png"
+      type="image/x-icon"
+    />
+    <title>My Personal Webpage</title>
+  </head>
+
+  <body>
+    <nav>
+      <div id="nav-items">
+        <a href="#home"><strong>Home</strong></a>
+        <a class="item" href="#portfolio">Portfolio</a>
+        <a class="item" href="#about">About</a>
+        <a class="item" href="#contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" onclick="toggle()"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#D9C7B8"
+          class="hamburger"
+        >
+          <path
+            d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+          />
+        </svg>
+      </a>
+    </nav>
+
+    <section id="home">
+      <div class="intro">
+        <h1>Ihieri Chibuike</h1>
+        <p>Web and Mobile Development Enthusiast</p>
+      </div>
+      <div class="image-container">
+        <img src="images/me.jpg" alt="My Picture" />
+      </div>
+    </section>
+
+    <section id="about">
+      <div>
+        <h1>About Me</h1>
+        <p>
+          Just a young guy with a desire to create great websites and mobile
+          applications. I discovered my interest in software development in my
+          secondary school years but I didn't get to start programming until
+          after my graduation. Currently I have gained some proficiency in HTML,
+          CSS and the use of Javascript in web development. I'm a student of
+          computer science in the University of Nigeria, Nsukka. Looking to
+          learn more and develop into a profesional in the programming field to
+          solve real-life problems.
+        </p>
+      </div>
+
+      <!-- Slideshow container -->
+      <div>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/1715847770340.jpg" style="width: 100%" />
+            <div class="text">Casual day in the University</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/IMG-20211005-WA0031.jpg" style="width: 100%" />
+            <div class="text">Secondary School Graduation</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img
+              src="images/InShot_20211227_112003001.jpg"
+              style="width: 100%"
+            />
+            <div class="text">Just Me 😁</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/IMG-20230218-WA0133.jpg" style="width: 100%" />
+            <div class="text">University Matriculation</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div>
+        <div class="heading">
+          <img
+            src="images/education-bag-learning-24-svgrepo-com.svg"
+            class="icon"
+          />
+          <h2>Education</h2>
+        </div>
+        <div class="certificates">
+          <div>
+            <h3>Nursery & Primary Education (2006 - 2015)</h3>
+            <p>Primary School Leaving Certificate: 2015</p>
+            <a href="#"
+              >Shining Stars Nursery and Primary School, Gbagada, Lagos.</a
+            >
+          </div>
+
+          <div>
+            <h3>Secondary Education (2015 - 2021)</h3>
+            <p>Secondary School Leaving Certificate: 2021</p>
+            <a href="#"
+              >Bishop Howells Memorial Grammar School, Bariga, Lagos.</a
+            >
+          </div>
+
+          <div>
+            <h3>Tertiary Education (2021 - date)</h3>
+            <a href="#">University of Nigeria, Nsukka, Enugu.</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div>
+        <div class="heading">
+          <img src="images/skills-svgrepo-com.svg" class="icon" />
+          <h2>Skills</h2>
+        </div>
+        <ul class="skills-container">
+          <li>✅ Innovative Thinking</li>
+          <li>✅ Communication</li>
+          <li>✅ Team work</li>
+          <li>✅ Problem solving</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h1>Get In Touch 🔗</h1>
+      <div>
+        <a href="https://github.com/C-e-e-k-a-y">Github</a>
+        <a href="https://web.facebook.com/profile.php?id=100093347653202"
+          >Facebook</a
+        >
+        <a href="https://twitter.com/ChibzTimmy?t=Jheb0Zttn0sg657Vt1z3ig&s=09"
+          >Twitter</a
+        >
+        <a
+          href="https://www.linkedin.com/in/chibuike-ihieri-9462471b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          >LinkedIn</a
+        >
+        <a href="https://www.instagram.com/.timmygram.?igsh=anB6ZXU0cjJ6cm44"
+          >Instagram</a
+        >
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
